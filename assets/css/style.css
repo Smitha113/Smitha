@@ -77,83 +77,101 @@ html:hover {
   justify-content: space-between;
   flex-direction: row;
 }
-header{
+
+header {
   color: #fff;
 }
-nav a{
+
+nav a {
   text-decoration: none;
   margin-left: 20px;
 }
-nav a:hover{
+
+nav a:hover {
   border-bottom: 2px solid #fff;
 }
+
 /* =============== HOME =============== */
-#home{
+#home {
   padding: 150px 0 50px;
 }
-.profile-info{
+
+.profile-info {
   display: flex;
   align-items: center;
   gap: 0.7rem;
 }
-.text-info{
+
+.text-info {
   display: flex;
   justify-content: space-between;
 }
+
 .text-info h1{
   border-bottom: 2px solid #fff;
 }
-.social-links{
+
+.social-links {
   display: flex;
   gap: 5px;
   background-color: var(--bg-color);
 }
-.user-bio a{
+
+.user-bio a {
   border-bottom: 1px solid #fff;
 }
-.quote-box{
+
+.quote-box {
   padding: 16px;
   background-color: #838596;
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 0 0 0 rgba(54, 54, 54, 0.2);
   transition: box-shadow 0.2s ease-in-out;
 }
-.quote-box:hover{
+
+.quote-box:hover {
   box-shadow: 10px 10px 2px rgba(255, 255, 255, 0.25);
 }
+
 /* =============== PROJECTS =============== */
-.project-grid{
+.project-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 12px;
 }
-.project{
+
+.project {
   border: 1px solid #7b8383;
   border-radius: 5px;
   padding: 16px;
 }
-.pproject-link{
+
+.project-link {
   display: flex;
   gap: 3px;
   text-align: center;
   justify-content: flex-start;
   align-items: center;
 }
-.project h3{
+
+.project h3 {
   text-align: left;
 }
-.project p{
+
+.project p {
   font-size: 12px;
   text-align: left;
 }
-.project-languages{
+
+.project-languages {
   display: flex;
   gap: 8px;
   font-weight: lighter;
   font-size: 12px;
   color: #1bb6b6;
 }
-.more-projects{
+
+.more-projects {
   margin-top: 10px;
   font-weight: 800;
   width: 95%;
@@ -162,14 +180,16 @@ nav a:hover{
   border-radius: 5px;
   padding: 16px;
 }
+
 /* =========== BREAKPOINTS =========== */
-@media screen and (min-width: 1025px){
-  .project-grid{
+@media screen and (min-width: 1025px) {
+  .project-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 /* =============== FOOTER =============== */
-footer{
+footer {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
